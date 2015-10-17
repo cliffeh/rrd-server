@@ -1,0 +1,30 @@
+{
+  "name": "rrd-server",
+  "version": "0.0.1",
+  "description": "simple server for exposing a RESTful API to access metrics stored in round-robin databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rrd",
+    "rrdtool",
+    "rrdjs",
+    "rest",
+    "api",
+    "express",
+    "metrics"
+  ],
+  "author": "Cliff Snyder <cliff.snyder@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cliffeh/rrd-server"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "rrdjs": "^0.1.1"
+  },
+  "devDependencies": {}
+}
