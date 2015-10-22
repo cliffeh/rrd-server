@@ -1,6 +1,6 @@
 {
   "name": "rrd-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple server for exposing a RESTful API to access metrics stored in round-robin databases",
   "main": "index.js",
   "scripts": {
