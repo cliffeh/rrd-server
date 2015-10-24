@@ -23,7 +23,6 @@ module.exports = function(basedir) {
       rrdjs.fetch(filename, cf, start, stop, step, function(err, data) {
         // TODO better error handling
         if(err) throw err;
-        console.log(data);
         res.end(JSON.stringify(data));
       });
     }
